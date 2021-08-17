@@ -30,6 +30,11 @@ export default function Home({ exploreData }) {
 						))}
 					</div>
 				</section>
+
+				<section className="pt-6">
+					<h2 className="text-4xl font-semibold py-8">Live Anywhere</h2>
+				</section>
+				
 			</main>
 		</div>
 	)
