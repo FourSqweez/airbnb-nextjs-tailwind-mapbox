@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import SmallCard from '../components/SmallCard'
 import MediumCard from './../components/MediumCard'
 import LargeCard from './../components/LargeCard'
+import Footer from '../components/Footer'
 
 export default function Home({ exploreData, cardData }) {
 	return (
@@ -50,6 +51,8 @@ export default function Home({ exploreData, cardData }) {
 					buttonText="Get inspired"
 				/>
 			</main>
+
+			<Footer/>
 		</div>
 	)
 }
