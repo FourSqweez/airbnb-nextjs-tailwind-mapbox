@@ -17,7 +17,7 @@ export default function Header() {
 	const [searchInput, setSearchInput] = useState('')
 	const [startDate, setStartDate] = useState(new Date())
 	const [endDate, setEndDate] = useState(new Date())
-	const [numOfGuests, setNumOfGuests] = useState(1)
+	const [noOfGuests, setNoOfGuests] = useState(1)
 	const router = useRouter()
 
 	const selectionRange = {
@@ -42,7 +42,7 @@ export default function Header() {
 				location: searchInput,
 				startDate: startDate.toISOString(),
 				endDate: endDate.toISOString(),
-				numOfGuests,
+				noOfGuests,
 			},
 		})
 	}
@@ -105,8 +105,8 @@ export default function Header() {
 						<input
 							type="number"
 							min={1}
-							value={numOfGuests}
-							onChange={(e) => setNumOfGuests(e.target.value)}
+							value={noOfGuests}
+							onChange={(e) => setNoOfGuests(e.target.value)}
 							className="w-12 pl-2 text-lg outline-none text-red-400"
 						/>
 					</div>
