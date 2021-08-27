@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@badrap/bar-of-progress': 0.1.1
   '@heroicons/react': ^1.0.3
   autoprefixer: ^10.2.6
   date-fns: ^2.23.0
@@ -13,6 +14,7 @@ specifiers:
   tailwindcss: ^2.2.4
 
 dependencies:
+  '@badrap/bar-of-progress': 0.1.1
   '@heroicons/react': 1.0.3_react@17.0.2
   date-fns: 2.23.0
   next: 11.1.0_react-dom@17.0.2+react@17.0.2
@@ -79,6 +81,10 @@ packages:
     dependencies:
       '@babel/helper-validator-identifier': 7.14.9
       to-fast-properties: 2.0.0
+    dev: false
+
+  /@badrap/bar-of-progress/0.1.1:
+    resolution: {integrity: sha512-71I3n/S8x9a/KW8JMboNRlDz0TLOI0YEjBjw3OxrwSzoJ9EZd46eaS5IIKn9XfBouJB3Kquzih/KrlvZtj2w/Q==}
     dev: false
 
   /@hapi/accept/5.0.2:
