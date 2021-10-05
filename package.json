@@ -1,5 +1,5 @@
 {
-  "start": "node --experimental-modules src/index.mjs ",
+  "start": "node --experimental-modules src/index.js ",
   "private": true,
   "scripts": {
     "dev": "next dev",
